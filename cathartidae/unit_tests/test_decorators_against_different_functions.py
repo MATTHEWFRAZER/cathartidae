@@ -3,7 +3,7 @@ from itertools import product
 import attr
 import pytest
 
-from cathartidae.tests.mocking_utils import Mock
+from cathartidae.unit_tests.mocking_utils import Mock
 from cathartidae.control_decorators import *
 
 decorators      = [

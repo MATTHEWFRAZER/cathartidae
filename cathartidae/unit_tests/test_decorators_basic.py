@@ -3,7 +3,7 @@ from itertools import product
 from threading import Lock
 
 from cathartidae.control_decorators import *
-from cathartidae.tests.basic_decorated_test_methods import BasicDecoratedTestMethods
+from cathartidae.unit_tests.basic_decorated_test_methods import BasicDecoratedTestMethods
 
 invalid_methods = [
                     if_(True), dynamic_if(lambda: True), with_(Lock()),  dynamic_with(lambda: Lock()),

@@ -14,7 +14,7 @@ with open(requirements_file) as req:
     requirements = [requirement for requirement in req.read().splitlines() if not requirement.startswith("-")]
 
 setup(name=package_name,
-      version="1.0.1",
+      version="1.0.2",
       install_requires=requirements,
       description="decorators for reducing nesting",
       keywords="code reuse nesting reduction",

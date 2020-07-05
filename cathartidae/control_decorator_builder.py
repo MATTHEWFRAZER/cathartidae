@@ -4,7 +4,6 @@ from cathartidae.lib.echos import echo
 
 __all__ = ["ControlDecoratorBuilder"]
 
-
 # of course we could just consolidate all decorators to take in a callback, and delegate dynamic/static operand behavior
 # to the user. initially, I wanted precision about what the user was going to be doing, now it might be worth reevaluating
 # since getting rid of the distinction on our end would simplify things. ALOT. we will reevaluate the need for this serious change
